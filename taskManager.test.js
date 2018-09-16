@@ -31,7 +31,7 @@ describe('Task Manager methods', () => {
     expect(list).toEqual([])
   })
 
-  test.skip('has working addTask method', () => {
+  test('has working addTask method', () => {
     expect(instance.addTask.length).toEqual(3);
     expect(instance.getList()).toHaveLength(0);
     instance.addTask('task1', () => { console.log(this); }, this);
