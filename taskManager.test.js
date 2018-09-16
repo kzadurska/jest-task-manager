@@ -1,4 +1,4 @@
-import TaskManager from './TaskManager'
+import TaskManager from './taskManager'
 
 describe('Task Manager', () => {
   test('it should exist', () => {
